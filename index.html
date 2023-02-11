@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaJobs</title>
+    <!-- custom styles link -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- bootstrap css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <!-- navbar start -->
+    <header>
+        <a href="" class="logo">InstaJobs</a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="#home">Home</a>
+            <a href="#jobs">Jobs</a>
+            <a href="#Companies">Companies</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="">Sign In</a>
+        </div>
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+    </header>
+    <!-- navbar end -->
+
+    <!-- home start -->
+    <div class="main" id="home">
+        <h1>Find The Perfect Job That<br> You Deserve</h1>
+        <p>More than 100 companies are hiring right now
+            <br>Don't miss the opportunity!
+        </p>
+        <button class="btn-primary">Search A Job</button>
+    </div>
+    <!-- home end -->
+
+    <!-- Job Listing Page Start -->
+    <div class="jobs-list-container" id="jobs">
+        <div class="heading-job_feed">
+            <h2>JOB FEED</h2>
+        </div>
+        <!-- Search Start -->
+        <div class="container-fluid  mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
+            <div class="container">
+                <div class="row g-2">
+                    <div class="col-md-10">
+                        <div class="row g-2">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control border-0" placeholder="Keyword" />
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select border-0">
+                                    <option selected>Category</option>
+                                    <option value="1">Category 1</option>
+                                    <option value="2">Category 2</option>
+                                    <option value="3">Category 3</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select border-0">
+                                    <option selected>Location</option>
+                                    <option value="1">Location 1</option>
+                                    <option value="2">Location 2</option>
+                                    <option value="3">Location 3</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-dark border-0 w-100">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search End -->
+
+        <!-- Job listing cards start -->
+        <div class="jobs">
+            <div class="job">
+                <img src="../images/software-development.png" alt="">
+                <h3 class="job-title">Software Engineer</h3>
+                <div class="job-details">Responsible for designing, developing and maintaining software systems and
+                    applications.</div>
+                <p>Posted 2 mins ago...</p>
+                <a href="" class="details-btn">More Details</a>
+                <span>Openings: 5
+                    <br>Job Applicants: 707</span>
+            </div>
+
+            <div class="job">
+                <img src="../images/data-scientist.png" alt="">
+                <h3 class="job-title">Data Scientist</h3>
+                <div class="job-details">Responsible for collecting, analyzing and interpreting large data sets to help
+                    organizations make better decisions.</div>
+                <p>Posted 2 mins ago...</p>
+                <a href="" class="details-btn">More Details</a>
+                <span>Openings: 5
+                    <br>Job Applicants: 707</span>
+            </div>
+
+            <div class="job">
+                <img src="../images/product-management.png" alt="">
+                <h3 class="job-title">Product Manager</h3>
+                <div class="job-details">Responsible for managing the entire product life cycle, from ideation to launch
+                    and post-launch maintenance.</div>
+                <p>Posted 2 mins ago...</p>
+                <a href="" class="details-btn">More Details</a>
+                <span>Openings: 5
+                    <br>Job Applicants: 707</span>
+            </div>
+
+            <div class="job">
+                <img src="../images/project-management.png" alt="">
+                <h3 class="job-title">Project Manager</h3>
+                <div class="job-details">Responsible for planning, executing and closing projects on time and within
+                    budget.</div>
+                <p>Posted 2 mins ago...</p>
+                <a href="" class="details-btn">More Details</a>
+                <span>Openings: 5
+                    <br>Job Applicants: 707</span>
+            </div>
+
+            <div class="job">
+                <img src="../images/sales-representative.png" alt="">
+                <h3 class="job-title">Sales Representative</h3>
+                <div class="job-details">Responsible for reaching out to potential customers and closing sales deals.
+                </div>
+                <p>Posted 2 mins ago...</p>
+                <a href="" class="details-btn">More Details</a>
+                <span>Openings: 5
+                    <br>Job Applicants: 707</span>
+            </div>
+
+            <div class="job">
+                <img src="../images/marketing.png" alt="">
+                <h3 class="job-title">Marketing Manager</h3>
+                <div class="job-details">Responsible for creating and executing marketing strategies to promote a
+                    company or product.</div>
+                <p>Posted 2 mins ago...</p>
+                <a href="" class="details-btn">More Details</a>
+                <span>Openings: 5
+                    <br>Job Applicants: 707</span>
+            </div>
+            <!-- job listing cards end -->
+        </div>
+        <!-- Job Listing Page End-->
+    </div>
+
+    <!-- join us banner start -->
+    <div class="join-banner">
+        <div class="join-content">
+            <h1>START YOUR CAREER WITH INSTAJOBS</h1>
+            <p>We are hiring for 2022 passed out freshers..!</p>
+            <button class="join-btn">Join US Now</button>
+        </div>
+    </div>
+    <!-- join us banner end-->
+
+<!-- featured companies section start -->
+    <div class="featured-companies" id="Companies">
+        <h1 class="companies-title">Featured Companies</h1>
+        <p>We have partnered over 100+ Top MNC companies and 50+ startup companies...</p>
+        <div class="featured-container">
+            <div class="featured-card">
+                <img class="featured-img" src="../images/YouTube-Logo.wine.png">
+                <p>Youtube</p>
+                <button class="featured-btn">View Openings</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-img" src="../images/Microsoft-Logo.wine.png">
+                <p>Microsoft</p>
+                <button class="featured-btn">View Openings</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-img" src="../images/Oracle_Corporation-Logo.wine.png">
+                <p>Oracle Corporation</p>
+                <button class="featured-btn">View Openings</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-img" src="../images/Red_Hat-Logo.wine.png">
+                <p>Red Hat</p>
+                <button class="featured-btn">View Openings</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-img" src="../images/Salesforce.com-Logo.wine.png">
+                <p>Salesforce</p>
+                <button class="featured-btn">View Openings</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-img" src="../images/SAP_SE-Logo.wine.png">
+                <p>SAP</p>
+                <button class="featured-btn">View Openings</button>
+            </div>
+        </div>
+        <span>and much more...</span>
+    </div>
+<!-- featured companies section end-->
+
+<!-- newsletter section start -->
+    <div class="newsletter">
+        <div class="newsletter-text-section">
+            <h1>Recieve New Job Offers.</h1>
+            <p>Want to know as soon as a new job offer is posted on our<br />
+                website?Subscribe to our weekly job offer digest.</p>
+            <div class="email-container">
+                <input type="email" placeholder="Enter email address" />
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </div >
+<!-- newsletter section end-->
+
+<!-- testimonial section start -->
+    <div class="testimonial-container" id="testimonials">
+            <div class="container">
+             <h1 class="section-header">TESTIMONIALS<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></h1>
+             <div class="testimonials">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+               <div class="carousel-inner">
+                <div class="carousel-item active">
+                 <div class="testimonial-item">
+                  <div class="row">
+                   <div class="col-md-5">
+                    <div class="profile">
+                     <div class="img-area">
+                      <img src="img/1.jpg" alt="" />
+                     </div>
+                     <div class="bio">
+                      <h2>Dave Wood</h2>
+                      <h4>Web Developer</h4>
+                     </div>
+                    </div>
+                   </div>
+                   <div class="col-md-6">
+                    <div class="content">
+                     <p>
+                      <span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe
+                      ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!
+                     </p>
+                     <p class="socials">
+                      <i class="fa fa-twitter"></i>
+                      <i class="fa fa-pinterest"></i>
+                      <i class="fa fa-vimeo"></i>
+                     </p>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+                <div class="carousel-item">
+                 <div class="testimonial-item">
+                  <div class="row">
+                   <div class="col-md-5">
+                    <div class="profile">
+                     <div class="img-area">
+                      <img src="img/2.jpg" alt="" />
+                     </div>
+                     <div class="bio">
+                      <h2>Martin Guptill</h2>
+                      <h4>UI/UX Designer</h4>
+                     </div>
+                    </div>
+                   </div>
+                   <div class="col-md-6">
+                    <div class="content">
+                     <p>
+                      <span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe
+                      ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!
+                     </p>
+                     <p class="socials">
+                      <i class="fa fa-twitter"></i>
+                      <i class="fa fa-pinterest"></i>
+                      <i class="fa fa-vimeo"></i>
+                     </p>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+                <div class="carousel-item">
+                 <div class="testimonial-item">
+                  <div class="row">
+                   <div class="col-md-5">
+                    <div class="profile">
+                     <div class="img-area">
+                      <img src="img/3.jpg" alt="" />
+                     </div>
+                     <div class="bio">
+                      <h2>Stephen Jones</h2>
+                      <h4>Graphic Designer</h4>
+                     </div>
+                    </div>
+                   </div>
+                   <div class="col-md-6">
+                    <div class="content">
+                     <p>
+                      <span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe
+                      ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!
+                     </p>
+                     <p class="socials">
+                      <i class="fa fa-twitter"></i>
+                      <i class="fa fa-pinterest"></i>
+                      <i class="fa fa-vimeo"></i>
+                     </p>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+               </button>
+              </div>
+             </div>
+            </div>           
+    </div>
+<!-- testimonial section end -->
+
+<!-- footer section start -->
+    <footer>
+        <div class="footer-content">
+            <h3>InstaJobs</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 InstaJobs. designed by <span>@eksgk007</span></p>
+        </div>
+    </footer>
+<!-- footer section end-->
+
+    <!-- custom js link -->
+    <script src="../js/script.js"></script>
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/d0ff6fd335.js" crossorigin="anonymous"></script>
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
+</html>
